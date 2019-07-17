@@ -15,7 +15,7 @@ ARGS=''
 # Only add match args if the example/js or example/css directories or test/index.hs
 # or the test/utils.js directories have not been edited
 
-if [ ! $TEST_INFRA ] || [ ! echo "$EXAMPLE_DIRS" | grep --silent -P "^(js|css)$" ]
+if [ ! $TEST_INFRA ] && [ ! echo "$EXAMPLE_DIRS" | grep --silent -P "^(js|css)$" ]
 then
   for D in $EXAMPLE_DIRS
   do
