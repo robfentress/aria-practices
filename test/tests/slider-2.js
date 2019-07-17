@@ -8,6 +8,8 @@ const assertAriaRoles = require('../util/assertAriaRoles');
 
 const exampleFile = 'slider/slider-2.html';
 
+// HIIIIIIIIIIIIIII
+
 const ex = {
   sliderSelector: '#ex1 [role="slider"]',
   tempSelector: '#ex1 #idTempThumb[role="slider"]',
