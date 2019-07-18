@@ -1,0 +1,10 @@
+[role="alert"] {
+    padding: 10px;
+    border: 2px solid hsl(360, 74%, 54%);
+    border-radius: 4px;
+    background: hsla(360, 100%, 90%, 1)
+}
+
+[role="alert"]:empty {
+    display: none;
+}
